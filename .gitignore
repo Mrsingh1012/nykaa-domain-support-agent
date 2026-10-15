@@ -1,0 +1,85 @@
+
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.venv_*/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated databases
+/chroma_db/
+/data/chroma_db/
+*.sqlite3
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local tooling and IDE
+.claude/
+.cortex/
+.vscode/
+
+# Local databases and generated indexes
+/data/chroma_db/
+/chroma_db/
+*.sqlite3
+
+# Archives and generated bundles
+*.zip
+
+# Backup files
+*.bak
+*.backup
+*.fixbackup
+*backup*.py
+*backup*.txt
+*.py_before_*
+*.before-*.py
+*before_*_fix.py
+*before_*_repair.py
+*original_backup*
+
+# Duplicate or accidental Python files
+src/__init__.py.py
+src/rag.py.py
+
+# Local environment notes
+src/Environment changes - nykaa-domain-support-agent.txt
+src/envirement.txt
+
+# Local AI tooling
+.claude/
+
+# Additional local backups
+*.py_before_*
+*.py.py_before_*
+*backup*
+*before*
+*.bak
+*.backup
+*.fixbackup

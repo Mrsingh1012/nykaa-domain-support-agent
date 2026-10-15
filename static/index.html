@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nykaa AI Support</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="app">
+        <header class="header">
+            <div class="logo">N</div>
+
+            <div>
+                <h1>Nykaa AI Support</h1>
+                <p>Your intelligent customer assistant</p>
+            </div>
+
+            <span class="status">● Online</span>
+        </header>
+
+        <main class="chat-container">
+
+            <div class="welcome">
+                <h2>Hello! 👋</h2>
+                <p>
+                    How can I help you today?
+                    Ask me about returns, refunds, delivery,
+                    or your order status.
+                </p>
+            </div>
+
+            <div id="chatMessages" class="messages">
+                <div class="message bot">
+                    Hello! Welcome to Nykaa AI Support.
+                    How can I help you?
+                </div>
+            </div>
+
+            <div class="suggestions">
+                <button data-question="What is the return policy?">
+                    Return Policy
+                </button>
+
+                <button data-question="What is the refund policy?">
+                    Refund Policy
+                </button>
+
+                <button data-question="Track order NK0006">
+                    Track Order
+                </button>
+            </div>
+
+            <form id="chatForm" class="chat-form">
+                <input type="text" id="questionInput" placeholder="Type your question..." maxlength="2000" required>
+
+                <button type="submit" id="sendButton">
+                    Send
+                </button>
+            </form>
+
+            <p class="disclaimer">
+                AI responses are based on the available support knowledge base.
+            </p>
+
+        </main>
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>

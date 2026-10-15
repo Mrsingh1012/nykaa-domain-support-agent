@@ -1,0 +1,52 @@
+[
+    {
+        "product_id": "NKP1001",
+        "name": "Hydrating Face Moisturizer",
+        "brand": "Sample Beauty",
+        "category": "Skincare",
+        "price": 499,
+        "rating": 4.4,
+        "description": "Daily moisturizer for soft and hydrated skin",
+        "in_stock": true
+    },
+    {
+        "product_id": "NKP1002",
+        "name": "Vitamin C Face Serum",
+        "brand": "Sample Beauty",
+        "category": "Skincare",
+        "price": 699,
+        "rating": 4.5,
+        "description": "Face serum for a brighter-looking complexion",
+        "in_stock": true
+    },
+    {
+        "product_id": "NKP1003",
+        "name": "Matte Liquid Lipstick",
+        "brand": "Sample Cosmetics",
+        "category": "Makeup",
+        "price": 399,
+        "rating": 4.2,
+        "description": "Long-wear matte lipstick",
+        "in_stock": true
+    },
+    {
+        "product_id": "NKP1004",
+        "name": "Gentle Face Cleanser",
+        "brand": "Sample Beauty",
+        "category": "Skincare",
+        "price": 299,
+        "rating": 4.1,
+        "description": "Gentle daily facial cleanser",
+        "in_stock": false
+    },
+    {
+        "product_id": "NKP1005",
+        "name": "Volumizing Mascara",
+        "brand": "Sample Cosmetics",
+        "category": "Makeup",
+        "price": 549,
+        "rating": 4.3,
+        "description": "Mascara designed to add volume to lashes",
+        "in_stock": true
+    }
+]

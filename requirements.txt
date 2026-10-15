@@ -1,0 +1,32 @@
+# Nykaa Domain Support Agent — core dependencies
+# Python version: 3.11 recommended
+# Install with: python -m pip install -r requirements.txt
+
+# Multi-agent orchestration
+crewai
+autogen-agentchat
+autogen-ext
+
+# RAG and vector database
+sentence-transformers
+chromadb
+
+# Conversation memory / runnable history
+langchain-core
+langchain-community
+
+# API and data validation
+fastapi
+uvicorn[standard]
+pydantic
+websockets
+
+# Utilities
+python-dotenv
+
+# Testing
+pytest
+httpx
+
+streamlit
+requests
